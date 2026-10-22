@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SCP-GS | Spherical Rate–Distortion-Guided Panoramic 3DGS Compression</title>
+  <title>Panoramic 3D Gaussian Splatting Compression via Spherical RD-Guided SH Reallocation</title>
   <meta name="description" content="Spherical rendering feedback reallocates spherical harmonic capacity for compact panoramic 3D Gaussian scenes. Explore qualitative comparisons and measured results across 43 scenes.">
   <meta name="theme-color" content="#f9f8f5">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -18,9 +18,10 @@
 <main>
 <section class="hero wrap" aria-labelledby="paper-title">
   <p class="eyebrow"><span class="dot"></span> PANORAMIC 3D GAUSSIAN COMPRESSION</p>
-  <h1 id="paper-title">Spherical <span>Rate–Distortion-Guided</span><br class="desktop-break"> Compression Panoramic<br class="desktop-break"> 3D Gaussian Splatting</h1>
+  <h1 id="paper-title">Panoramic 3D Gaussian Splatting<br class="desktop-break"> Compression via <span>Spherical RD-Guided<br class="desktop-break"> SH Reallocation</span></h1>
   <p class="hero-summary">Allocate appearance capacity where it matters.<br>Preserve panoramic detail under a fixed bit budget.</p>
-  <div class="hero-actions"><a class="button primary" href="assets/paper.pdf" target="_blank" rel="noopener"><span aria-hidden="true">↗</span> Read the paper</a><a class="button" href="https://github.com/PPMYfly/SCP-GS" target="_blank" rel="noopener">Source code <span aria-hidden="true">↗</span></a><a class="text-link" href="#comparisons">Explore comparisons <span aria-hidden="true">↓</span></a></div>
+  <!-- Final manuscript placeholder: replace this status with a link after uploading the final PDF. -->
+  <div class="hero-actions"><span class="button" role="status">Paper · Coming soon</span><a class="button" href="https://github.com/PPMYfly/SCP-GS" target="_blank" rel="noopener">Source code <span aria-hidden="true">↗</span></a><a class="text-link" href="#comparisons">Explore comparisons <span aria-hidden="true">↓</span></a></div>
   <div class="hero-gallery" aria-label="Panoramic reconstructions from the paper">
     <figure><img src="assets/coast-ours.webp" alt="Compressed panoramic reconstruction of a rocky coastline" width="600" height="300" fetchpriority="high"><figcaption><span>01 / COAST</span><span>Ours · 27.04 dB</span></figcaption></figure>
     <figure><img src="assets/bedroom-ours.webp" alt="Compressed panoramic reconstruction of a bedroom" width="600" height="300"><figcaption><span>02 / BEDROOM</span><span>Ours · 27.25 dB</span></figcaption></figure>
@@ -60,7 +61,7 @@
   <div class="experiment-footnote"><div><span>DATASETS</span><p>360Roam (11) · OmniPhotos (11)<br>OmniScenes (9) · EgoNeRF-Ricoh360 (12)</p></div><div><span>EVALUATION</span><p>NVIDIA RTX 3090 · 1920 × 960 ERP<br>Held-out test views · q ∈ {8, 9, 10, 12}</p></div></div>
   <noscript><p>Interactive results require JavaScript. <a href="assets/fig02_quality_storage.svg">View the original results figure</a> or <a href="assets/reported_system.csv">download the data</a>.</p></noscript>
 </div></section>
-<section class="section wrap resources" id="resources"><div><p class="eyebrow">05 / RESOURCES</p><h2>Explore the work.</h2><p>Read the method, inspect the implementation,<br>and explore the reported measurements.</p></div><div class="resource-links"><a href="assets/paper.pdf" target="_blank" rel="noopener"><span><strong>Manuscript</strong><small>Current English manuscript · PDF</small></span><span aria-hidden="true">↗</span></a><a href="https://github.com/PPMYfly/SCP-GS" target="_blank" rel="noopener"><span><strong>Source code</strong><small>PPMYfly / SCP-GS · GitHub</small></span><span aria-hidden="true">↗</span></a><a href="assets/reported_system.csv" download><span><strong>Experiment data</strong><small>Reported system operating points · CSV</small></span><span aria-hidden="true">↓</span></a></div></section>
+<section class="section wrap resources" id="resources"><div><p class="eyebrow">05 / RESOURCES</p><h2>Explore the work.</h2><p>Inspect the implementation and explore the reported measurements.<br>The final manuscript will be available here.</p></div><div class="resource-links"><div class="resource-placeholder" role="status"><span><strong>Manuscript</strong><small>Final manuscript coming soon</small></span><span class="resource-status">Pending</span></div><a href="https://github.com/PPMYfly/SCP-GS" target="_blank" rel="noopener"><span><strong>Source code</strong><small>PPMYfly / SCP-GS · GitHub</small></span><span aria-hidden="true">↗</span></a><a href="assets/reported_system.csv" download><span><strong>Experiment data</strong><small>Reported system operating points · CSV</small></span><span aria-hidden="true">↓</span></a></div></section>
 </main>
 <footer class="wrap footer"><a class="brand" href="#">◉ SCP-GS</a><p>Spherical rendering feedback for panoramic Gaussian compression.</p><a href="#">Back to top ↑</a></footer>
 <dialog id="figure-dialog"><div class="dialog-bar"><span id="figure-caption"></span><button id="close-dialog" aria-label="Close enlarged figure">Close ✕</button></div><img id="dialog-image" alt=""></dialog>
