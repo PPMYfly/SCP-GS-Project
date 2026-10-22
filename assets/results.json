@@ -1,0 +1,124 @@
+{
+  "system": [
+    {
+      "method": "HAC++",
+      "config": "cmp_32000",
+      "storage_mib": 10.324999,
+      "psnr_db": 20.341828,
+      "ws_psnr_db": 20.730447,
+      "v_psnr_db": 21.9475,
+      "ssim": 0.704882,
+      "ws_ssim": 0.69294,
+      "lpips": 0.385108,
+      "fps": 27.91208
+    },
+    {
+      "method": "LightGaussian",
+      "config": "iter_32000",
+      "storage_mib": 30.502943,
+      "psnr_db": 19.751818,
+      "ws_psnr_db": 19.389556,
+      "v_psnr_db": 20.2934,
+      "ssim": 0.694977,
+      "ws_ssim": 0.678913,
+      "lpips": 0.400292,
+      "fps": 18.201782
+    },
+    {
+      "method": "MesonGS",
+      "config": "cmp_32000",
+      "storage_mib": 1.851875,
+      "psnr_db": 19.034512,
+      "ws_psnr_db": 18.892341,
+      "v_psnr_db": 19.9856,
+      "ssim": 0.682134,
+      "ws_ssim": 0.665421,
+      "lpips": 0.418756,
+      "fps": 39.214567
+    },
+    {
+      "method": "PCGS",
+      "config": "SS0",
+      "storage_mib": 5.040153,
+      "psnr_db": 17.761434,
+      "ws_psnr_db": 17.540101,
+      "v_psnr_db": 18.5068,
+      "ssim": 0.661561,
+      "ws_ssim": 0.631592,
+      "lpips": 0.451514,
+      "fps": 36.477381
+    },
+    {
+      "method": "PCGS",
+      "config": "SS1",
+      "storage_mib": 6.333084,
+      "psnr_db": 17.766019,
+      "ws_psnr_db": 17.54648,
+      "v_psnr_db": 18.5185,
+      "ssim": 0.661839,
+      "ws_ssim": 0.631946,
+      "lpips": 0.451296,
+      "fps": 37.479103
+    },
+    {
+      "method": "PCGS",
+      "config": "SS2",
+      "storage_mib": 8.163999,
+      "psnr_db": 17.766389,
+      "ws_psnr_db": 17.547347,
+      "v_psnr_db": 18.5257,
+      "ssim": 0.661887,
+      "ws_ssim": 0.632011,
+      "lpips": 0.451215,
+      "fps": 33.196481
+    },
+    {
+      "method": "OUR Q1",
+      "config": "q=8",
+      "storage_mib": 6.965,
+      "psnr_db": 23.069,
+      "ws_psnr_db": 23.732,
+      "v_psnr_db": 25.066,
+      "ssim": 0.76,
+      "ws_ssim": 0.754,
+      "lpips": 0.2541,
+      "fps": 100.879
+    },
+    {
+      "method": "OUR Q2",
+      "config": "q=9",
+      "storage_mib": 7.752,
+      "psnr_db": 23.409,
+      "ws_psnr_db": 24.136,
+      "v_psnr_db": 25.468,
+      "ssim": 0.7662,
+      "ws_ssim": 0.7613,
+      "lpips": 0.2435,
+      "fps": 100.655
+    },
+    {
+      "method": "OUR Q3",
+      "config": "q=10",
+      "storage_mib": 8.533,
+      "psnr_db": 23.714,
+      "ws_psnr_db": 24.421,
+      "v_psnr_db": 25.83,
+      "ssim": 0.7717,
+      "ws_ssim": 0.7679,
+      "lpips": 0.2342,
+      "fps": 100.548
+    },
+    {
+      "method": "OUR Q4",
+      "config": "q=12",
+      "storage_mib": 10.105,
+      "psnr_db": 24.109,
+      "ws_psnr_db": 24.807,
+      "v_psnr_db": 26.297,
+      "ssim": 0.7789,
+      "ws_ssim": 0.7763,
+      "lpips": 0.2278,
+      "fps": 101.488
+    }
+  ]
+}
